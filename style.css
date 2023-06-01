@@ -1,0 +1,146 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Default container styles */
+.container {
+    width: 440px;
+    height: 300px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+/* Default item styles */
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 80px;
+    background-color: #64a7f8;
+    border-radius: 5px;
+
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+/* Opdracht 1: */
+.opdracht-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Opdracht 2: */
+.opdracht-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Opdracht 3: */
+.opdracht-3 {
+    display: flex;
+}
+
+/* Opdracht 4: */
+.opdracht-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Opdracht 5: */
+.opdracht-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Opdracht 6: */
+.opdracht-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Opdracht 7: */
+.opdracht-7 {
+    display: flex;
+    flex-direction: row-reverse;
+    /*justify-content: flex-end;*/
+}
+
+/* Opdracht 8: */
+.opdracht-8 {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-8 .item-1 {
+    order: 2;
+}
+
+.opdracht-8 .item-2 {
+    order: 1;
+}
+
+.opdracht-8 .item-3 {
+    order: 3;
+}
+
+/* Opdracht 9: */
+.opdracht-9 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.opdracht-9 .item-1 {
+    flex-grow: 1;
+}
+
+/* Opdracht 10: */
+.opdracht-10 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Opdracht 11: */
+.opdracht-11 {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-11 .item {
+    flex-shrink: 0;
+}
+
+/* Opdracht 12: */
+.opdracht-12 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Opdracht 13: */
+.opdracht-13 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.opdracht-13 .item-1 {
+    width: 160px;
+}
